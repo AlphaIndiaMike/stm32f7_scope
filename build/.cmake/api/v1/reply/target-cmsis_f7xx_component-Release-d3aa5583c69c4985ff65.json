@@ -1,0 +1,130 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "31_asw_f7/01_bsp/cmsis/CMakeFiles/cmsis_f7xx_component.dir/./cmsis-device-f7-master/Source/Templates/gcc/startup_stm32f746xx.s.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"31_asw_f7/01_bsp/cmsis/CMakeLists.txt",
+			"31_asw_f7/01_bsp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"fragment" : "-mcpu=cortex-m7  -mthumb  -mfpu=fpv4-sp-d16  -mfloat-abi=hard  -fdata-sections  -ffunction-sections  -Wdouble-promotion  -Wall  -Og -g3 "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ARM_MATH_CM7"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32F746xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/31_asw_f7/01_bsp/cmsis/arm/Core/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/31_asw_f7/01_bsp/cmsis/cmsis-device-f7-master/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/31_asw_f7/01_bsp/hal/Inc/Config"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/31_asw_f7/01_bsp/hal/Inc"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "cmsis_f7xx_component::@2fe949353fcf93d14b44",
+	"name" : "cmsis_f7xx_component",
+	"paths" : 
+	{
+		"build" : "31_asw_f7/01_bsp/cmsis",
+		"source" : "31_asw_f7/01_bsp/cmsis"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "31_asw_f7/01_bsp/cmsis/cmsis-device-f7-master/Source/Templates/gcc/startup_stm32f746xx.s",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

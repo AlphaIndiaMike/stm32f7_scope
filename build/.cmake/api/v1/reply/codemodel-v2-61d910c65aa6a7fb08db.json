@@ -1,0 +1,245 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "31_asw_f7",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-31_asw_f7-Release-4f2340282ec6d5078ba0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "31_asw_f7/01_bsp",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-31_asw_f7.01_bsp-Release-235ec5d90f86170b3d3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7/01_bsp"
+				},
+				{
+					"build" : "31_asw_f7/01_bsp/cmsis",
+					"jsonFile" : "directory-31_asw_f7.01_bsp.cmsis-Release-34970c5ab6e30691ac80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7/01_bsp/cmsis",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "31_asw_f7/01_bsp/hal",
+					"jsonFile" : "directory-31_asw_f7.01_bsp.hal-Release-ee08758d3581ca4160cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7/01_bsp/hal",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "31_asw_f7/01_bsp/f7-disco-bsp",
+					"jsonFile" : "directory-31_asw_f7.01_bsp.f7-disco-bsp-Release-0f555657b139311d1577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7/01_bsp/f7-disco-bsp",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "31_asw_f7/30_main",
+					"jsonFile" : "directory-31_asw_f7.30_main-Release-9d04c699486b4807dc01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7/30_main",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "31_asw_f7/10_os",
+					"jsonFile" : "directory-31_asw_f7.10_os-Release-534b999842fb82301cb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7/10_os",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "31_asw_f7/70_lib",
+					"jsonFile" : "directory-31_asw_f7.70_lib-Release-099c55c03bd16510ac28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "31_asw_f7/70_lib",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "STM32 build demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DEMO_STM32.out::@16eb19da4ff8c66af5f4",
+					"jsonFile" : "target-DEMO_STM32.out-Release-59dc595b56602d0c761c.json",
+					"name" : "DEMO_STM32.out",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cmsis_f7xx_component::@2fe949353fcf93d14b44",
+					"jsonFile" : "target-cmsis_f7xx_component-Release-d3aa5583c69c4985ff65.json",
+					"name" : "cmsis_f7xx_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "f7_disco_bsp_component::@9d0f1eb43af5e21bae8b",
+					"jsonFile" : "target-f7_disco_bsp_component-Release-53e408f617f18e7ab36b.json",
+					"name" : "f7_disco_bsp_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "free_rtos_10_3_component::@4de364264e2ab704f0ff",
+					"jsonFile" : "target-free_rtos_10_3_component-Release-5ed2f9abce008d65ab64.json",
+					"name" : "free_rtos_10_3_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "lib_component::@76709f51781f3e4f9ad6",
+					"jsonFile" : "target-lib_component-Release-3e46d6c2a67bc928fbfd.json",
+					"name" : "lib_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "main_component::@938871c270ddadd8f045",
+					"jsonFile" : "target-main_component-Release-bf80ef81f30c22d67fc7.json",
+					"name" : "main_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "stm32f7xx_hal_driver_component::@84b5b8998401b3b8cc31",
+					"jsonFile" : "target-stm32f7xx_hal_driver_component-Release-24d6a9401022d5c3285a.json",
+					"name" : "stm32f7xx_hal_driver_component",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/build",
+		"source" : "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
