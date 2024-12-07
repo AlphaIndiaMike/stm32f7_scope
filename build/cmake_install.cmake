@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake
+# Install script for directory: /Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/build/31_asw_f7/cmake_install.cmake")
+  include("/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/build/31_asw_f7/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/build/install_local_manifest.txt"
+  file(WRITE "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

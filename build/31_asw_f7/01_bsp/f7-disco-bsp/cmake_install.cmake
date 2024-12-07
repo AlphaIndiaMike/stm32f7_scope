@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/31_asw_f7/01_bsp/f7-disco-bsp
+# Install script for directory: /Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/31_asw_f7/01_bsp/f7-disco-bsp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/build/31_asw_f7/01_bsp/f7-disco-bsp/install_local_manifest.txt"
+  file(WRITE "/Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/build/31_asw_f7/01_bsp/f7-disco-bsp/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

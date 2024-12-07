@@ -49,7 +49,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/Cmake/build/CMakeFiles/3.31.0/CompilerIdC/CMakeCCompilerId.o
+        /Users/alex/Desktop/AIM/05_Hobby/01_Projects/22_STM32_SCOPE/git/build/CMakeFiles/3.31.0/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
